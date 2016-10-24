@@ -1,0 +1,16 @@
+default: &default
+  adapter: mysql2
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: rogue_dev
+
+test:
+  <<: *default
+  database: rogue_test
+
+production:
+  <<: *default
+  database: rogue_prod
