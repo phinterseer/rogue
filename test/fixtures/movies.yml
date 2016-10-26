@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  runtime: 1
+  screening: one
+
+two:
+  title: MyString
+  runtime: 1
+  screening: two
